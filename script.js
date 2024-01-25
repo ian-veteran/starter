@@ -7,7 +7,7 @@ const displayMessage = function (message) {
     document.querySelector('.message').textContent = message;
   };
 
-document.querySelector('.number').textContent = secretNumber;
+//document.querySelector('.number').textContent = secretNumber;
 
 
 document.querySelector('.check').addEventListener('click', function(){
